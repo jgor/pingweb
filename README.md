@@ -1,6 +1,7 @@
 pingweb
 =======
 
+<pre>
 This script determines whether a given webpage is available.
 
 usage: $0 [-hdv] [-e eml1,eml2] [-c eml3,eml4] [-b eml5,eml6] [-f from_eml] [-n name] [-p pattern] [-s tmpfile] [-t timeout] url
@@ -19,4 +20,4 @@ usage: $0 [-hdv] [-e eml1,eml2] [-c eml3,eml4] [-b eml5,eml6] [-f from_eml] [-n 
 -t timeout      : timeout (in seconds) to wait for an HTTP response  
 
 example: $0 -p "[Ww]elcome \\w+ Example\\.com" -e support\@example.com -c boss\@example.com,qa\@example.com -f monitor\@example.com http://www.example.com/
-
+</pre>
